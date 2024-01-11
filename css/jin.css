@@ -35,7 +35,7 @@ ul{
     list-style: none;
 }
 a{
-    color: #0e0d0d;
+    color: #d2d2d2;
 }
 li {
     
@@ -55,4 +55,10 @@ body{
     height: 500px;
     background-color: rgba(107, 105, 108, 0.5);
 }
+.move-set{
+    width: 500px;
+    height: 500px;
+    
+}
+
 
