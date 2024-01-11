@@ -43,8 +43,9 @@ li {
     
 
 }
-header{
-    position: fixed;
-    left: 0;
-    top: 0;
+
+body{
+    background-image: url(./medias/reina-tekken8-render.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
