@@ -69,7 +69,7 @@ main img{
    }
    
 .render img {
-
+    background-color: blue;
     position: absolute; /* isso permite que a imagem seja posicionada dentro do contêiner */
     top: 0px; /* ajuste isso para posicionar a imagem verticalmente */
     left: -300px; /* ajuste isso para posicionar a imagem horizontalmente */
