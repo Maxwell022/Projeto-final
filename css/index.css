@@ -13,6 +13,7 @@
     text-align: center;
     padding: 20px 0;
     transition: top 0.2s ease-in-out;
+    position: fixed;
 }
 
 #header.fixed {
@@ -48,4 +49,8 @@ body{
     background-image: url(./medias/reina-tekken8-render.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+}
+main{
+    background-color: gray;
 }
