@@ -4,24 +4,15 @@
     box-sizing: border-box;
 }
 
-#header {
-    
+#header {    
     width: 100%;
-    height: 60px;
     background-color:rgb(5, 12, 51);
     color: white;
-    text-align: center;
     padding: 20px 0;
-    transition: top 0.2s ease-in-out;
-}
-
-#header.fixed {
-    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
-    gap: 222px;
+    position: fixed;
 }
 
 nav{
@@ -29,23 +20,15 @@ nav{
     justify-content: space-between;
     
 }
-
-ul{
-    text-align: center;
-    list-style: none;
-}
 a{
     color: #d2d2d2;
 }
 li {
-    
     display: inline;
-    
-
 }
 
 body{
-    
+    background-image: url();
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -54,7 +37,7 @@ body{
     width: 800px;
     height: 5000px;
     background-color: rgba(107, 105, 108, 0.5);
-    margin: 30px 30px 0px 50px;
+    margin: 0px 30px 0px 50px;
 }
 .move-set{
     width: 500px;
@@ -69,6 +52,7 @@ img{
 }
 
 main header{
+    margin-top: 100px;
     border-bottom: 5px solid #ed0808;
     font-size: 30px;
 }
@@ -80,5 +64,26 @@ main header p{
 main p{
     color:#ffff;
     font-size: 24px;
-    margin: 10px 10pxw;
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 640px){
+    .container{
+        background-color: rgb(20, 220, 37);
+    }
+    .articles article{
+        width: 90%;
+    }    
+}
+
+@media screen  and (min-width: 641px) and (max-width: 1365){
+    .container{
+        background-color: blue;
+    }    
+}
+
+@media screen and (orientation:portrait){
+    .container{
+        background-color: chartreuse;
+    }
 }
