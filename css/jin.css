@@ -51,9 +51,10 @@ body{
 }
 
 .info{
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 5000px;
     background-color: rgba(107, 105, 108, 0.5);
+    margin: 30px 30px 0px 50px;
 }
 .move-set{
     width: 500px;
@@ -61,4 +62,23 @@ body{
     
 }
 
+img{
+    margin: 0px 0px 0px 300px;
+    width: 30%;
+    height: 30%;
+}
 
+main header{
+    border-bottom: 5px solid #ed0808;
+    font-size: 30px;
+}
+main header p{
+    margin: 25px 0 0 350px;
+    color: #ffff;
+    font-size: 30px;
+}
+main p{
+    color:#ffff;
+    font-size: 24px;
+    margin: 10px 10pxw;
+}
