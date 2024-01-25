@@ -28,9 +28,11 @@ li {
 }
 
 body{
-    background-image: url();
+    background-image: url(../medias/tekken_8_wallpaper___8k__city_background_by_vgejackler_dfjzff7.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 200%;
+    
 }
 
 .info{
