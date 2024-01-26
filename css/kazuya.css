@@ -1,7 +1,12 @@
 *{
-    padding: 0;
+    
     margin: 0;
     box-sizing: border-box;
+    color: #d2d2d2;
+}
+h1{
+    margin: 0px 0px 20px 20px;
+    color: #312e2e;
 }
 
 #header {    
@@ -13,6 +18,7 @@
     left: 0;
     right: 0;
     position: fixed;
+    
 }
 
 nav{
@@ -21,7 +27,7 @@ nav{
     
 }
 a{
-    color: #d2d2d2;
+    color: #d0c9c9;
 }
 li {
     display: inline;
@@ -37,8 +43,8 @@ body{
 
 .info{
     width: 700px;
-    height: 5000px;
-    background-color: rgba(107, 105, 108, 0.5);
+    height: 120000px;
+    background-color: rgba(107, 105, 108, 0.7);
     margin: 0px 30px 0px 50px;
 }
 .move-set{
@@ -69,7 +75,7 @@ img{
 
 main header{
     margin-top: 100px;
-    border-bottom: 5px solid #ed0808;
+    border-bottom: 5px solid #b30202;
     font-size: 30px;
 }
 main header p{
@@ -79,15 +85,48 @@ main header p{
 }
 main p{
     color:#ffff;
-    font-size: 24px;
+    font-size: 20px;
     margin: 10px 10px;
 }
 
 @media screen and (max-width: 640px){
+    body{
+        background-image: url(../medias/tekken_8___mobile_wallpaper__4k_by_vgejackler_dfjzffl.jpg);
+        background-size: 125%;
+    }
+    .info{
+        width: 100px;
+        height: 600000px;
+    }
+    img{
+        margin: 0px 0px 0px 150px;
+        width: 30%;
+        height: 30%;
+    }
+    main header p{
+        margin: 25px 0 0 150px;
+        color: #ffff;
+        font-size: 10px;
+    }
+    
+}
 
+@media screen  and (min-width: 641px) and (max-width: 1365){
+    #header{
+        background-color: green;
+    }    
+
+}
+
+@media screen and (orientation:portrait){
+    
+    body{
+        background-image: url(../medias/tekken_8___mobile_wallpaper__4k_by_vgejackler_dfjzffl.jpg);
+        background-size: 125%;
+    }
     .info{
         width: 520px;
-        height: 2500px;
+        height: 60000px;
     }
     img{
         margin: 0px 0px 0px 150px;
@@ -99,20 +138,5 @@ main p{
         color: #ffff;
         font-size: 30px;
     }
-    
-}
-
-@media screen  and (min-width: 641px) and (max-width: 1365){
-    #header{
-        background-color: green;
-    }    
-}
-
-@media screen and (orientation:portrait){
-    img{
-        margin: 0px;
-        width: 40px;
-        height: 40px;
-    }
-
+   
 }
