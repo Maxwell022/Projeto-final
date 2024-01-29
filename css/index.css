@@ -3,21 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-#header {
-    
-    width: 100%;
-    height: 60px;
-    background-color:rgb(5, 12, 51);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    transition: top 0.2s ease-in-out;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+header{
+    background-color: blue;
+    padding-top: 29px;
+    display: flex;
+   
 }
+
 
 
 nav{
@@ -47,3 +39,47 @@ body{
 main{
     background-color: gray;
 }
+
+header ul{
+    text-decoration: none;
+}
+
+.cont{
+    
+    width: 700px;
+    height: 900px;
+    background-color: darkgrey;
+    
+}
+
+#me_de_papai{
+    display: flex;
+    justify-content: center;
+}
+
+.cont h3{
+    color: black;
+    padding: 50px 0 0 40px;
+    font-size: 30px;
+    
+}
+
+#black{
+   
+    background-color: rgb(249, 7, 7);
+    width: 550px;
+    height: 150px;
+    display: flex;
+    justify-content: end;
+}
+
+#white{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#black p {
+   color: white;
+}
+
