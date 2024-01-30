@@ -29,7 +29,7 @@ nav{
 a{
     color: #d0c9c9;
 }
-li {
+#header li {
     display: inline;
 }
 
@@ -112,20 +112,23 @@ main p{
 }
 
 @media screen  and (min-width: 641px) and (max-width: 1365){
-    #header{
+    *{
         background-color: green;
     }    
 
 }
 
 @media screen and (orientation:portrait){
-    
+
+    header img{
+      margin: 0px 0px 0px 35%;
+    }
     body{
         background-image: url(../medias/tekken_8___mobile_wallpaper__4k_by_vgejackler_dfjzffl.jpg);
-        background-size: 125%;
+        background-size: 155%;
     }
     .info{
-        width: 520px;
+        width: 350px;
         height: 60000px;
     }
     img{
@@ -134,9 +137,12 @@ main p{
         height: 30%;
     }
     main header p{
-        margin: 25px 0 0 150px;
+        margin: 25px 0px 0px 30%;
         color: #ffff;
-        font-size: 30px;
+        font-size: 20px;
     }
-   
+    main p{
+      font-size: 15px;
+    }
+
 }
