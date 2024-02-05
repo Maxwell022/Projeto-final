@@ -2,14 +2,31 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: aliceblue;
 }
 header{
-    background-color: blue;
-    padding-top: 29px;
-    display: flex;
+    width: 100%;
+    background-color:rgb(5, 12, 51);
+    color: white;
+    padding: 20px 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
    
 }
+header a{
+    color:aliceblue;
+    font-size: 20px;
+    margin: 0px 50px 0px 0px;
+}
+header a:hover{
+    color: #900909;
+}
 
+h2{
+    margin: 0px 0px 0px 20px;
+}
 
 
 nav{
@@ -19,15 +36,13 @@ nav{
 }
 
 ul{
-    text-align: center;
+    
     list-style: none;
 }
 a{
-    color: #dcc8c8;
+    color: #900909;
 }
-li { 
-    display: inline;
-}
+
 
 body{
     background-image: url(../medias/tekken_8_wallpaper___8k__city_background_by_vgejackler_dfjzff7.jpg);
@@ -45,10 +60,10 @@ header ul{
 }
 
 .cont{
-    
+    margin-top: 100px;
     width: 700px;
-    height: 900px;
-    background-color: darkgrey;
+    height: 100%;
+    background-color: rgb(42, 42, 42);
     
 }
 
@@ -58,28 +73,16 @@ header ul{
 }
 
 .cont h3{
-    color: black;
-    padding: 50px 0 0 40px;
+    margin: 0px 0px 0px 20px;
+    color: yellow;    
     font-size: 30px;
-    
-}
 
-#black{
-   
-    background-color: rgb(249, 7, 7);
-    width: 550px;
-    height: 150px;
-    display: flex;
-    justify-content: end;
 }
-
-#white{
-    padding: 20px;
-    display: flex;
-    justify-content: center;
+.cont p{
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
 }
-
-#black p {
-   color: white;
+.cont li{
+    margin: 10px 0px 10px 20px;
+    font-size: 20px;
 }
-
